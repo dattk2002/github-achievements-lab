@@ -1,7 +1,7 @@
-.PHONY: test test-core test-python test-java test-all
+.PHONY: test test-core test-python test-java test-typescript test-all
 test: test-core test-python
 
-test-all: test test-java
+test-all: test test-java test-typescript
 
 test-core:
 	@set -eu; build=$$(mktemp -d); trap 'rm -rf "$$build"' EXIT; \
@@ -25,4 +25,10 @@ test-java:
 	  java -m jdk.compiler/com.sun.tools.javac.Main -Xlint:all -Werror \
 	    -d "$$build" "$$directory"/*.java; \
 	  java -cp "$$build" Test; \
+	done
+
+test-typescript:
+	@set -eu; for directory in lessons/*-typescript; do \
+	  echo "Testing $$directory"; \
+	  node --test "$$directory/test.mts"; \
 	done
