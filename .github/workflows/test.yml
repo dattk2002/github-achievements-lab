@@ -19,10 +19,10 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '24'
-      - name: Install Linux process-isolation dependency
+      - name: Install test toolchains and Linux process isolation
         run: |
           sudo apt-get update
-          sudo apt-get install -y bubblewrap openjdk-17-jdk-headless
+          sudo apt-get install -y bubblewrap openjdk-17-jdk-headless rustc
       - name: Compile and test lessons and automation guards
         env:
           JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
