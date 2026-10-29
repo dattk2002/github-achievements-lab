@@ -8,6 +8,7 @@ giải thích tiếng Việt. Nội dung được tự viết để học thuậ
 quy trình Git; không sao chép hoặc tự nộp bài lên nền tảng luyện tập khác.
 
 - [01 — Tìm kiếm nhị phân](lessons/01-binary-search/README.md)
+- [LeetCode 3841 — Palindromic Path Queries in a Tree (C++)](lessons/leetcode-3841-palindromic-path-queries-in-a-tree/README.md)
 - [Danh sách chủ đề và yêu cầu](curriculum.json)
 
 Yêu cầu: GCC hoặc Clang hỗ trợ C++17, Python 3.9+, Git và Make.
@@ -18,6 +19,14 @@ make test
 
 Lệnh trên biên dịch từng bài với cảnh báo được xem là lỗi, chạy kiểm thử
 C++, rồi chạy các kiểm thử bảo vệ quy trình tự động.
+
+## Bài tập đa ngôn ngữ
+
+- [Python — Gộp khoảng (LeetCode 56)](lessons/leetcode-56-merge-intervals-python/README.md)
+
+`make test-python` chạy các bài Python (3.9+, thư viện chuẩn).
+`make test-all` chạy toàn bộ các ngôn ngữ được bổ sung vào track này.
+`make test` là bộ C++/Python dùng trong sandbox của lịch tự động.
 
 ## Daily workflow
 
