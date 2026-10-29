@@ -23,8 +23,10 @@ C++, rồi chạy các kiểm thử bảo vệ quy trình tự động.
 ## Bài tập đa ngôn ngữ
 
 - [Python — Gộp khoảng (LeetCode 56)](lessons/leetcode-56-merge-intervals-python/README.md)
+- [Java — Đếm đảo (LeetCode 200)](lessons/leetcode-200-number-of-islands-java/README.md)
 
 `make test-python` chạy các bài Python (3.9+, thư viện chuẩn).
+`make test-java` yêu cầu JDK 17+ có module `jdk.compiler`; CI dùng JDK 17.
 `make test-all` chạy toàn bộ các ngôn ngữ được bổ sung vào track này.
 `make test` là bộ C++/Python dùng trong sandbox của lịch tự động.
 
