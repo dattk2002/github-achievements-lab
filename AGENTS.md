@@ -1,10 +1,14 @@
-# C++ learning lab
+# Algorithm learning lab
 
 - Keep each PR focused on one complete educational task.
-- New lessons live in `lessons/NN-topic/` with `lesson.hpp`, `test.cpp`, and
+- Scheduled C++ lessons live in `lessons/NN-topic/` with `lesson.hpp`, `test.cpp`, and
   a Vietnamese `README.md` covering the contract, algorithm, complexity,
   runnable examples, edge cases, and exercises.
-- Use C++17, namespace `lab`, and standard libraries. No new dependencies.
+- Use C++17, namespace `lab`, and standard libraries for the scheduled track.
+- User-requested polyglot lessons use `lessons/leetcode-ID-topic-LANGUAGE/`,
+  standard libraries, executable tests and a Vietnamese README with the same
+  teaching requirements. Run `make test-all` when changing these lessons.
+  Keep `make test` usable in the daily controller's C++/Python sandbox.
 - Write meaningful tests before implementation. Tests must fail with a
   nonzero exit code even when `NDEBUG` is defined; do not rely on `assert`.
 - Run `make test` and `git diff --check` before committing.
