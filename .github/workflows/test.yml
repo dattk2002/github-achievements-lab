@@ -19,6 +19,10 @@ jobs:
       - name: Install Linux process-isolation dependency
         run: |
           sudo apt-get update
-          sudo apt-get install -y bubblewrap
+          sudo apt-get install -y bubblewrap openjdk-17-jdk-headless
       - name: Compile and test lessons and automation guards
-        run: make test
+        env:
+          JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
+        run: |
+          export PATH="$JAVA_HOME/bin:$PATH"
+          make test-all
