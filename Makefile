@@ -1,7 +1,9 @@
-.PHONY: test test-core test-python test-java test-typescript test-all
+RUSTC ?= rustc
+
+.PHONY: test test-core test-python test-java test-typescript test-rust test-all
 test: test-core test-python
 
-test-all: test test-java test-typescript
+test-all: test test-java test-typescript test-rust
 
 test-core:
 	@set -eu; build=$$(mktemp -d); trap 'rm -rf "$$build"' EXIT; \
@@ -31,4 +33,12 @@ test-typescript:
 	@set -eu; for directory in lessons/*-typescript; do \
 	  echo "Testing $$directory"; \
 	  node --test "$$directory/test.mts"; \
+	done
+
+test-rust:
+	@set -eu; build=$$(mktemp -d); trap 'rm -rf "$$build"' EXIT; \
+	for directory in lessons/*-rust; do \
+	  echo "Testing $$directory"; \
+	  "$(RUSTC)" --edition=2021 -D warnings --test "$$directory/test.rs" -o "$$build/test"; \
+	  "$$build/test"; \
 	done
