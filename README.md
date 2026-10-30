@@ -25,6 +25,7 @@ C++, rồi chạy các kiểm thử bảo vệ quy trình tự động.
 - [C++ — Đoạn con ngắn nhất đạt tổng mục tiêu (LeetCode 209)](lessons/leetcode-209-minimum-size-subarray-sum-cpp/README.md)
 - [Python — Gộp khoảng (LeetCode 56)](lessons/leetcode-56-merge-intervals-python/README.md)
 - [Java — Đếm đảo (LeetCode 200)](lessons/leetcode-200-number-of-islands-java/README.md)
+- [Java — Cam thối và BFS nhiều nguồn (LeetCode 994)](lessons/leetcode-994-rotting-oranges-java/README.md)
 - [TypeScript — Chuỗi con không lặp (LeetCode 3)](lessons/leetcode-3-longest-substring-typescript/README.md)
 - [Rust — Chờ ngày ấm hơn (LeetCode 739)](lessons/leetcode-739-daily-temperatures-rust/README.md)
 
