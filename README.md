@@ -22,6 +22,7 @@ C++, rồi chạy các kiểm thử bảo vệ quy trình tự động.
 
 ## Bài tập đa ngôn ngữ
 
+- [C++ — Đoạn con ngắn nhất đạt tổng mục tiêu (LeetCode 209)](lessons/leetcode-209-minimum-size-subarray-sum-cpp/README.md)
 - [Python — Gộp khoảng (LeetCode 56)](lessons/leetcode-56-merge-intervals-python/README.md)
 - [Java — Đếm đảo (LeetCode 200)](lessons/leetcode-200-number-of-islands-java/README.md)
 - [TypeScript — Chuỗi con không lặp (LeetCode 3)](lessons/leetcode-3-longest-substring-typescript/README.md)
