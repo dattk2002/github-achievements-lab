@@ -30,6 +30,7 @@ C++, rồi chạy các kiểm thử bảo vệ quy trình tự động.
 - [TypeScript — Chuỗi con không lặp (LeetCode 3)](lessons/leetcode-3-longest-substring-typescript/README.md)
 - [TypeScript — Tích mọi phần tử trừ chính nó (LeetCode 238)](lessons/leetcode-238-product-except-self-typescript/README.md)
 - [Rust — Chờ ngày ấm hơn (LeetCode 739)](lessons/leetcode-739-daily-temperatures-rust/README.md)
+- [Rust — Dãy số liên tiếp dài nhất (LeetCode 128)](lessons/leetcode-128-longest-consecutive-sequence-rust/README.md)
 
 `make test-python` chạy các bài Python (3.9+, thư viện chuẩn).
 `make test-java` yêu cầu JDK 17+ có module `jdk.compiler`; CI dùng JDK 17.
