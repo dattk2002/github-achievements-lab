@@ -28,6 +28,7 @@ C++, rồi chạy các kiểm thử bảo vệ quy trình tự động.
 - [Java — Cam thối và BFS nhiều nguồn (LeetCode 994)](lessons/leetcode-994-rotting-oranges-java/README.md)
 - [TypeScript — Chuỗi con không lặp (LeetCode 3)](lessons/leetcode-3-longest-substring-typescript/README.md)
 - [Rust — Chờ ngày ấm hơn (LeetCode 739)](lessons/leetcode-739-daily-temperatures-rust/README.md)
+- [Rust — Dãy số liên tiếp dài nhất (LeetCode 128)](lessons/leetcode-128-longest-consecutive-sequence-rust/README.md)
 
 `make test-python` chạy các bài Python (3.9+, thư viện chuẩn).
 `make test-java` yêu cầu JDK 17+ có module `jdk.compiler`; CI dùng JDK 17.
