@@ -15,6 +15,7 @@ quy trình Git; không sao chép hoặc tự nộp bài lên nền tảng luyệ
 - [LeetCode 518 — Coin Change II: đếm tổ hợp (C++)](lessons/leetcode-518-coin-change-ii-cpp/README.md)
 - [LeetCode 45 — Jump Game II: số bước nhảy ít nhất (C++)](lessons/leetcode-45-jump-game-ii-cpp/README.md)
 - [LeetCode 48 — Rotate Image: xoay ma trận tại chỗ (C++)](lessons/leetcode-48-rotate-image-cpp/README.md)
+- [LeetCode 494 — Target Sum: đếm cách gán dấu (C++)](lessons/leetcode-494-target-sum-cpp/README.md)
 - [LeetCode 3841 — Palindromic Path Queries in a Tree (C++)](lessons/leetcode-3841-palindromic-path-queries-in-a-tree/README.md)
 - [Danh sách chủ đề và yêu cầu](curriculum.json)
 
