@@ -8,6 +8,7 @@ giải thích tiếng Việt. Nội dung được tự viết để học thuậ
 quy trình Git; không sao chép hoặc tự nộp bài lên nền tảng luyện tập khác.
 
 - [01 — Tìm kiếm nhị phân](lessons/01-binary-search/README.md)
+- [LeetCode 55 — Jump Game: biên tới được và tham lam (C++)](lessons/leetcode-55-jump-game-cpp/README.md)
 - [LeetCode 3841 — Palindromic Path Queries in a Tree (C++)](lessons/leetcode-3841-palindromic-path-queries-in-a-tree/README.md)
 - [Danh sách chủ đề và yêu cầu](curriculum.json)
 
