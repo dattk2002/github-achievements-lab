@@ -17,6 +17,7 @@ quy trình Git; không sao chép hoặc tự nộp bài lên nền tảng luyệ
 - [LeetCode 48 — Rotate Image: xoay ma trận tại chỗ (C++)](lessons/leetcode-48-rotate-image-cpp/README.md)
 - [LeetCode 494 — Target Sum: đếm cách gán dấu (C++)](lessons/leetcode-494-target-sum-cpp/README.md)
 - [LeetCode 763 — Partition Labels: phân hoạch bằng vị trí cuối (C++)](lessons/leetcode-763-partition-labels-cpp/README.md)
+- [LeetCode 1091 — Shortest Path in Binary Matrix: BFS tám hướng (C++)](lessons/leetcode-1091-shortest-path-in-binary-matrix-cpp/README.md)
 - [LeetCode 3841 — Palindromic Path Queries in a Tree (C++)](lessons/leetcode-3841-palindromic-path-queries-in-a-tree/README.md)
 - [Danh sách chủ đề và yêu cầu](curriculum.json)
 
