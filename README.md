@@ -13,6 +13,7 @@ quy trình Git; không sao chép hoặc tự nộp bài lên nền tảng luyệ
 - [LeetCode 347 — Top K Frequent Elements: bucket theo tần suất (C++)](lessons/leetcode-347-top-k-frequent-elements-cpp/README.md)
 - [LeetCode 417 — Pacific Atlantic Water Flow: BFS ngược (C++)](lessons/leetcode-417-pacific-atlantic-water-flow-cpp/README.md)
 - [LeetCode 518 — Coin Change II: đếm tổ hợp (C++)](lessons/leetcode-518-coin-change-ii-cpp/README.md)
+- [LeetCode 45 — Jump Game II: số bước nhảy ít nhất (C++)](lessons/leetcode-45-jump-game-ii-cpp/README.md)
 - [LeetCode 3841 — Palindromic Path Queries in a Tree (C++)](lessons/leetcode-3841-palindromic-path-queries-in-a-tree/README.md)
 - [Danh sách chủ đề và yêu cầu](curriculum.json)
 
